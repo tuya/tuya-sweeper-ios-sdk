@@ -1,33 +1,33 @@
 # Tuya Smart Sweeper iOS SDK
 
-[中文版](README-zh.md) | [English](README.md)
+[English](README.md) | [中文版](README-zh.md)
 
-## Features Overview
+## Overview
 
-Tuya Smart Sweeper iOS SDK is based on the [Tuya Smart Home iOS SDK](https://github.com/TuyaInc/tuyasmart_home_ios_sdk)(The following introduction is: Home SDK), which expands the interface package for accessing the related functions of the sweeper device to speed up the development process. Mainly includes the following functions:
+Tuya Smart Sweeper iOS SDK is based on the [Tuya Smart Home iOS SDK](https://github.com/TuyaInc/tuyasmart_home_ios_sdk) (Home SDK) and expands the interface package that is used to enable required functions of a sweeper device. This allows you to simplify the development process. The following functions are supported:
 
 - Streaming media (for gyro or visual sweepers) universal data channel
 - Data transmission channel of laser sweeper
-- Laser sweeper real-time / historical sweep record
+- Laser sweeper real-time or historical sweep record
 - Sweeper universal voice download service
 
-> The laser sweeper data is divided into real-time data and historical record data. Both types of data include map data and path data, which are stored in the cloud in the form of files. Among them, the map and path of real-time data are stored in different files, and the map and path of historical data are stored in the same file. The map and path data are split and read according to the specified rules.
+> The laser sweeper data is divided into real-time data and historical data. Both types of data include map data and path data and are stored to files in the cloud. The map and path of real-time data are stored in different files, and the map and path of historical data are stored in the same file. The map and path data are split and read based on the specified rules.
 >
 
 
 
-## Preparation work
+## Preparation
 
-Tuya Smart Sweeper iOS SDK relies on the Tuya Smart Home iOS SDK, and develop on this basis。Before starting to develop with the SDK, you need to register a developer account, create a product, etc. on the Tuya Smart Development Platform, and obtain a key to activate the SDK, please refer to [Tuya Smart Home iOS SDK Preparation work](https://tuyainc.github.io/tuyasmart_home_ios_sdk_doc/en/resource/Preparation.html).
-
-
+Tuya Smart Sweeper iOS SDK is used in the development based on the [Tuya Smart Home iOS SDK](https://github.com/TuyaInc/tuyasmart_home_ios_sdk). Before you begin the development with the SDK, you must register a developer account, create a product, and then complete other required steps on the Tuya Smart Development Platform. This allows you to obtain a key to activate the SDK. For more information, see [Preparation](https://developer.tuya.com/en/docs/app-development/preparation/preparation?id=Ka69nt983bhh5).
 
 
-## Fast Integration
 
-### Using CocoaPods
 
-Add the following content in file `Podfile`:
+## Efficient integration
+
+### Use CocoaPods
+
+Add the following content to the file `Podfile`:
 
 ```ruby
 platform :ios, '9.0'
@@ -39,31 +39,31 @@ target 'your_target_name' do
 end
 ```
 
-Execute command `pod update` in the project's root directory to begin integration.
+Execute the command `pod update` in the root directory of the project to integrate the SDK.
 
-For the instructions of CocoaPods, please refer to: [CocoaPods Guides](https://guides.cocoapods.org/) 
+For more information about CocoaPods, see [CocoaPods Guides](https://guides.cocoapods.org/).
 
 
 
-## Initializing SDK
+## Initialize the SDK
 
-1. Open project setting, `Target => General`, edit `Bundle Identifier` to the value from Tuya develop center.
+1. Open the project to apply the setting, `Target => General`, and set `Bundle Identifier` to the value from Tuya developer center.
 
-2. Import security image to the project and rename as `t_s.bmp` from [Preparation Work](https://tuyainc.github.io/tuyasmart_home_ios_sdk_doc/en/resource/Preparation.html), then add it into `Project Setting => Target => Build Phases => Copy Bundle Resources`.
+2. Import a security image to the project, rename the image as `t_s.bmp` from [Preparation](https://developer.tuya.com/en/docs/app-development/preparation/preparation?id=Ka69nt983bhh5), and then add the image to `Project Setting => Target => Build Phases => Copy Bundle Resources`.
 
-3. Add the following to the project file `PrefixHeader.pch`：
+3. Add the following content to the project file `PrefixHeader.pch`：
 
 ```objective-c
 #import <TuyaSmartSweeperKit/TuyaSmartSweeperKit.h>
 ```
 
-Swift project add the following to the `xxx_Bridging-Header.h` file:
+For a Swift project, add the following content to the `xxx_Bridging-Header.h` file:
 
 ```
 #import <TuyaSmartSweeperKit/TuyaSmartSweeperKit.h>
 ```
 
-4. Open file `AppDelegate.m`，and use the `App Key` and `App Secret` obtained from the development platform in the `[AppDelegate application:didFinishLaunchingWithOptions:]`method to initialize SDK:
+4. Open the file `AppDelegate.m`，and use the `App Key` and `App Secret` that are obtained from the development platform in the `[AppDelegate application:didFinishLaunchingWithOptions:]` method to initialize SDK:
 
 Objc:
 
@@ -77,17 +77,17 @@ Swift:
  TuyaSmartSDK.sharedInstance()?.start(withAppKey: <#your_app_key#>, secretKey: <#your_secret_key#>)
 ```
 
-Now all the prepare work has been completed. You can use the sdk to develop your application now.
+All the preparation steps are finished. You can use the SDK to develop your application.
 
 
 
-## Doc
+## References
 
-Refer to details：[Tuya Smart Sweeper SDK - iOS](https://tuyainc.github.io/tuyasmart_home_ios_sdk_doc/en/resource/Sweeper.html)
+For more information, see [Tuya Smart Sweeper SDK - iOS](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/extension-sdk/sweeper-sdk/sweeper?id=Ka5vey18r7hnz).
 
 
 
 ## ChangeLog
 
-[ChangeLog.md](https://tuyainc.github.io/tuyasmart_home_ios_sdk_doc/en/resource/SweeperChangeLog.html) 
+[ChangeLog](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/extension-sdk/sweeper-sdk/sweeperchangelog?id=Ka5zsjrv5svmm)
 
