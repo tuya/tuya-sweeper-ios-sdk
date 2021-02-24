@@ -4,7 +4,7 @@
 
 ## Overview
 
-Tuya Smart Sweeper iOS SDK is based on the [Tuya Smart Home iOS SDK](https://github.com/TuyaInc/tuyasmart_home_ios_sdk) (Home SDK) and expands the interface package that is used to enable required functions of a sweeper device. This allows you to simplify the development process. The following functions are supported:
+Tuya Smart Sweeper iOS SDK is based on the [Tuya Smart Home iOS SDK](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/feature-overview?id=Ka5cgmlybhjk8) (Home SDK) and expands the interface package that is used to enable required functions of a sweeper device. This allows you to simplify the development process. The following functions are supported:
 
 - Streaming media (for gyro or visual sweepers) universal data channel
 - Data transmission channel of laser sweeper
@@ -18,7 +18,7 @@ Tuya Smart Sweeper iOS SDK is based on the [Tuya Smart Home iOS SDK](https://git
 
 ## Preparation
 
-Tuya Smart Sweeper iOS SDK is used in the development based on the [Tuya Smart Home iOS SDK](https://github.com/TuyaInc/tuyasmart_home_ios_sdk). Before you begin the development with the SDK, you must register a developer account, create a product, and then complete other required steps on the Tuya Smart Development Platform. This allows you to obtain a key to activate the SDK. For more information, see [Preparation](https://developer.tuya.com/en/docs/app-development/preparation/preparation?id=Ka69nt983bhh5).
+Tuya Smart Sweeper iOS SDK is used in the development based on the [Tuya Smart Home iOS SDK](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/feature-overview?id=Ka5cgmlybhjk8). Before you begin the development with the SDK, you must register a developer account, create a product, and then complete other required steps on the Tuya Smart Development Platform. This allows you to obtain a key to activate the SDK. For more information, see [Preparation](https://developer.tuya.com/en/docs/app-development/preparation/preparation?id=Ka69nt983bhh5).
 
 
 
@@ -87,7 +87,7 @@ For more information, see [Tuya Smart Sweeper SDK - iOS](https://developer.tuya.
 
 
 
-## ChangeLog
+## Change log
 
-[ChangeLog](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/extension-sdk/sweeper-sdk/sweeperchangelog?id=Ka5zsjrv5svmm)
+[Change Log](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/extension-sdk/sweeper-sdk/sweeperchangelog?id=Ka5zsjrv5svmm)
 
