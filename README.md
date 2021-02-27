@@ -4,14 +4,14 @@
 
 ## Overview
 
-Tuya Smart Sweeper iOS SDK is based on the [Tuya Smart Home iOS SDK](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/feature-overview?id=Ka5cgmlybhjk8) (Home SDK) and expands the interface package that is used to enable required functions of a sweeper device. This allows you to simplify the development process. The following functions are supported:
+Tuya Smart Sweeper iOS SDK is based on the [Tuya Smart Home iOS SDK](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/feature-overview?id=Ka5cgmlybhjk8) (Home SDK) and expands the interface package that enables the required functions of a sweeper device. This allows you to simplify the development process. The following functions are supported:
 
 - Streaming media (for gyro or visual sweepers) universal data channel
 - Data transmission channel of laser sweeper
 - Laser sweeper real-time or historical sweep record
 - Sweeper universal voice download service
 
-> The laser sweeper data is divided into real-time data and historical data. Both types of data include map data and path data and are stored to files in the cloud. The map and path of real-time data are stored in different files, and the map and path of historical data are stored in the same file. The map and path data are split and read based on the specified rules.
+> The laser sweeper data is divided into real-time data and historical data. Both types of data include map data and path data and are stored in files in the cloud. The map and path of real-time data are stored in different files, and the map and path of historical data are stored in the same file. The map and path data are split and read based on the specified rules.
 >
 
 
@@ -47,7 +47,7 @@ For more information about CocoaPods, see [CocoaPods Guides](https://guides.coco
 
 ## Initialize the SDK
 
-1. Open the project to apply the setting, `Target => General`, and set `Bundle Identifier` to the value from Tuya developer center.
+1. Open the project to apply the setting, `Target => General`, and set `Bundle Identifier` to the value from the Tuya developer center.
 
 2. Import a security image to the project, rename the image as `t_s.bmp` from [Preparation](https://developer.tuya.com/en/docs/app-development/preparation/preparation?id=Ka69nt983bhh5), and then add the image to `Project Setting => Target => Build Phases => Copy Bundle Resources`.
 
@@ -87,7 +87,7 @@ For more information, see [Tuya Smart Sweeper SDK - iOS](https://developer.tuya.
 
 
 
-## Change log
+## Changelog
 
-[Change Log](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/extension-sdk/sweeper-sdk/sweeperchangelog?id=Ka5zsjrv5svmm)
+[Changelog](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/extension-sdk/sweeper-sdk/sweeperchangelog?id=Ka5zsjrv5svmm)
 
