@@ -4,7 +4,7 @@
 
 ## 功能概述
 
-涂鸦智能扫地机 iOS SDK 是在[涂鸦智能 iOS SDK](https://github.com/TuyaInc/tuyasmart_home_ios_sdk) （下文简介为: Home SDK）的基础上扩展了接入扫地机设备相关功能的接口封装，加速开发过程。主要包括了以下功能：
+涂鸦智能扫地机 iOS SDK 是在[涂鸦智能 iOS SDK](https://github.com/tuya/tuya-home-ios-sdk) （下文简介为: Home SDK）的基础上扩展了接入扫地机设备相关功能的接口封装，加速开发过程。主要包括了以下功能：
 
 - 流媒体（用于陀螺仪型或视觉型扫地机）通用数据通道
 - 激光型扫地机数据传输通道
@@ -15,7 +15,7 @@
 
 ## 准备工作
 
-该 SDK 依赖于涂鸦全屋智能 SDK，基于此基础上进行拓展开发。在开始使用 SDK 开发前，需要在涂鸦智能开发平台上注册开发者账号、创建产品等，并获取到激活 SDK 的密钥，具体的操作流程请参考[涂鸦全屋智能 SDK 集成准备章节](https://tuyainc.github.io/tuyasmart_home_ios_sdk_doc/zh-hans/resource/Preparation.html)。 
+该 SDK 依赖于涂鸦全屋智能 SDK，基于此基础上进行拓展开发。在开始使用 SDK 开发前，需要在涂鸦智能开发平台上注册开发者账号、创建产品等，并获取到激活 SDK 的密钥，具体的操作流程请参考[涂鸦全屋智能 SDK 集成准备章节](https://developer.tuya.com/cn/docs/app-development/preparation/preparation?id=Ka69nt983bhh5)。 
 
 
 
@@ -77,11 +77,11 @@ Swift:
 
 ## 开发文档
 
-更多请参考：[涂鸦智能扫地机 iOS SDK 开发文档](https://tuyainc.github.io/tuyasmart_home_ios_sdk_doc/zh-hans/resource/Sweeper.html)
+更多请参考：[涂鸦智能扫地机 iOS SDK 开发文档](https://developer.tuya.com/cn/docs/app-development/ios-app-sdk/extension-sdk/sweeper-sdk/sweeper?id=Ka5vey18r7hnz)
 
 
 
 ## 版本更新记录
 
-[ChangeLog.md](https://tuyainc.github.io/tuyasmart_home_ios_sdk_doc/zh-hans/resource/SweeperChangeLog.html) 
+[ChangeLog.md](https://developer.tuya.com/cn/docs/app-development/ios-app-sdk/extension-sdk/sweeper-sdk/sweeperchangelog?id=Ka5zsjrv5svmm) 
 
