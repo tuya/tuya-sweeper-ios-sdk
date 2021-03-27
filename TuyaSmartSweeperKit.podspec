@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'TuyaSmartSweeperKit'
-    s.version          = '2.0.1'
+    s.version          = '2.0.2'
     s.summary          = '#{s.name} for iOS.'
     
     s.homepage         = 'https://github.com/tuya/tuya-sweeper-ios-sdk'
